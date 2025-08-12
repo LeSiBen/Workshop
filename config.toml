@@ -1,7 +1,7 @@
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 canonifyURLs = true
-baseURL="http://localhost:1313/"
+baseURL="/"
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
