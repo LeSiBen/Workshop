@@ -1,0 +1,31 @@
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-learn"
+canonifyURLs = true
+baseURL="http://localhost:1313/"
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "workshop"
+  # Git hub repo link
+  editURL = ""
+  description = "Lambda Container Images Workshop - Performance Optimization, Security Scanning, and Cost Analysis"
+  author = "hoangha8103@gmail.com"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  
+  
+[Languages]
+[Languages.en]
+title = "Lambda Container Images Workshop"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-facebook'></i> AWS Study Group"
+identifier = "AWS Study Group FB"
+url = "https://www.facebook.com/groups/awsstudygroupfcj/"
+weight = 20
